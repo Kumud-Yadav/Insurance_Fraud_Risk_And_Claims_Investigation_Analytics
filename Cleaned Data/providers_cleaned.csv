@@ -1,0 +1,251 @@
+provider_id,provider_name,provider_type,state,years_in_business,fraud_history_flag
+PR000000,"Lee, Whitehead and Peterson",repair_shop,PA,27,True
+PR000001,Roy Group,medical_clinic,CA,40,False
+PR000002,"Mcmillan, Moore and Miller",medical_clinic,IL,29,False
+PR000003,Martin-Vaughn,medical_clinic,OH,9,False
+PR000004,"Herrera, Burke and Nolan",medical_clinic,NY,3,False
+PR000005,Perez-Ortiz,repair_shop,NC,39,False
+PR000006,Duncan Group,medical_clinic,MI,29,False
+PR000007,"Baird, Freeman and Kramer",attorney,CA,21,False
+PR000008,Warren-Williams,medical_clinic,NY,35,False
+PR000009,Ward Group,repair_shop,NC,10,False
+PR000010,"Jensen, Powers and Bennett",medical_clinic,GA,23,False
+PR000011,Dominguez-Johnson,repair_shop,MI,39,False
+PR000012,Williams Inc,repair_shop,MI,25,False
+PR000013,Price-Smith,repair_shop,PA,24,False
+PR000014,English Group,medical_clinic,GA,20,False
+PR000015,Murphy PLC,repair_shop,GA,15,False
+PR000016,Campbell Inc,attorney,FL,21,False
+PR000017,Cortez and Sons,medical_clinic,CA,12,False
+PR000018,Watkins-Gomez,repair_shop,FL,18,False
+PR000019,Barber Ltd,medical_clinic,FL,23,False
+PR000020,"Ellis, Novak and Cunningham",attorney,FL,29,True
+PR000021,"Ross, Salinas and Watts",medical_clinic,NC,36,False
+PR000022,Thompson Group,medical_clinic,CA,5,False
+PR000023,Snyder-Trujillo,medical_clinic,GA,39,False
+PR000024,Sanchez Ltd,repair_shop,PA,26,False
+PR000025,Smith PLC,medical_clinic,IL,39,True
+PR000026,"Horton, Jones and Patel",medical_clinic,OH,11,False
+PR000027,Everett Ltd,repair_shop,IL,11,False
+PR000028,"Barr, Austin and Crane",repair_shop,IL,18,False
+PR000029,Olson PLC,repair_shop,MI,12,False
+PR000030,Gibbs-Bradford,attorney,OH,16,True
+PR000031,Mcdaniel Ltd,medical_clinic,GA,27,False
+PR000032,Obrien-Garcia,repair_shop,OH,36,False
+PR000033,Pruitt Inc,medical_clinic,PA,17,False
+PR000034,Hall-Lee,medical_clinic,GA,21,False
+PR000035,Chan and Sons,medical_clinic,NY,37,False
+PR000036,Cole-Williams,medical_clinic,FL,31,False
+PR000037,"Paul, Bennett and White",repair_shop,IL,35,False
+PR000038,Garza-Fields,repair_shop,PA,27,False
+PR000039,Anderson-Turner,medical_clinic,NY,23,False
+PR000040,House Inc,repair_shop,IL,32,False
+PR000041,"Stout, Gibbs and Rice",repair_shop,FL,17,False
+PR000042,Blackwell-Greer,repair_shop,NY,11,False
+PR000043,"Diaz, Holloway and Murray",medical_clinic,CA,1,False
+PR000044,Hopkins and Sons,attorney,FL,28,False
+PR000045,"Cherry, Jordan and Robinson",repair_shop,OH,18,True
+PR000046,Trujillo Inc,medical_clinic,MI,20,False
+PR000047,Park LLC,repair_shop,GA,7,False
+PR000048,Petersen-Martin,medical_clinic,GA,37,False
+PR000049,Blackwell Inc,medical_clinic,FL,16,True
+PR000050,Sexton Group,repair_shop,FL,39,False
+PR000051,Harper-Hunter,medical_clinic,TX,23,False
+PR000052,Henderson-James,repair_shop,NC,32,False
+PR000053,"Mathews, Robertson and Lee",attorney,FL,17,False
+PR000054,Sampson-Myers,attorney,IL,19,False
+PR000055,Potter-Phillips,repair_shop,MI,34,False
+PR000056,Adkins-Brennan,medical_clinic,OH,14,False
+PR000057,"Heath, Merritt and Bell",medical_clinic,NY,3,False
+PR000058,Wright-Murphy,repair_shop,CA,39,False
+PR000059,"Thornton, Mccormick and Carter",medical_clinic,FL,25,False
+PR000060,"Sanchez, Jenkins and Fernandez",repair_shop,CA,11,True
+PR000061,"Green, Hardy and Wright",attorney,TX,15,True
+PR000062,"Henderson, Faulkner and Ware",repair_shop,MI,19,False
+PR000063,Carlson Inc,medical_clinic,CA,15,False
+PR000064,Carter Group,medical_clinic,IL,15,False
+PR000065,Graves Group,medical_clinic,FL,38,False
+PR000066,Smith LLC,medical_clinic,TX,15,False
+PR000067,"Campos, Sosa and Chavez",repair_shop,CA,9,False
+PR000068,"Navarro, Booker and Murphy",medical_clinic,NY,5,False
+PR000069,"Alvarez, Hunt and Mcdonald",repair_shop,NY,19,False
+PR000070,Vaughn PLC,medical_clinic,NY,24,False
+PR000071,"Thomas, Morgan and Dodson",repair_shop,GA,29,True
+PR000072,"Solis, Cox and Franco",medical_clinic,CA,5,False
+PR000073,Garcia-Norman,medical_clinic,CA,22,False
+PR000074,Pratt-Mills,medical_clinic,MI,13,False
+PR000075,"Travis, Alvarado and Bridges",repair_shop,OH,29,True
+PR000076,Barnes PLC,medical_clinic,FL,16,False
+PR000077,Jones-Spence,medical_clinic,IL,36,False
+PR000078,Francis-Smith,medical_clinic,PA,17,False
+PR000079,Johnson Group,repair_shop,TX,20,False
+PR000080,"Sullivan, Gillespie and Fowler",repair_shop,IL,14,False
+PR000081,"Davis, Lewis and Ross",medical_clinic,MI,6,False
+PR000082,Little PLC,medical_clinic,GA,22,False
+PR000083,Mitchell-Cross,repair_shop,MI,40,False
+PR000084,"Marsh, Kirk and Smith",repair_shop,FL,9,False
+PR000085,"Porter, Boyle and Gilbert",medical_clinic,PA,32,False
+PR000086,Collins and Sons,repair_shop,IL,24,True
+PR000087,Cook-Johnson,repair_shop,NY,33,False
+PR000088,"Gonzales, Trujillo and Robinson",medical_clinic,NY,13,False
+PR000089,"Graham, Torres and Campbell",medical_clinic,OH,35,False
+PR000090,Jones and Sons,repair_shop,GA,6,False
+PR000091,Porter-Scott,repair_shop,NC,40,False
+PR000092,Tucker-Young,repair_shop,PA,30,False
+PR000093,"Ferguson, Salas and Griffin",medical_clinic,PA,38,False
+PR000094,"Thompson, Butler and Perry",repair_shop,PA,16,False
+PR000095,Jensen Ltd,repair_shop,GA,1,False
+PR000096,"Coleman, Clark and Moore",medical_clinic,TX,18,False
+PR000097,"Rogers, Johnson and Andrews",repair_shop,IL,22,False
+PR000098,"Harris, Sanchez and Hogan",medical_clinic,MI,26,False
+PR000099,Lopez LLC,repair_shop,TX,14,False
+PR000100,Wilson LLC,attorney,GA,37,False
+PR000101,Perry Ltd,attorney,OH,14,False
+PR000102,Gregory-Mercado,attorney,OH,26,False
+PR000103,"Little, Stark and Lloyd",medical_clinic,IL,36,False
+PR000104,Olson and Sons,medical_clinic,GA,23,False
+PR000105,West and Sons,repair_shop,OH,2,True
+PR000106,Lamb-Washington,medical_clinic,CA,39,True
+PR000107,Ross-Davis,repair_shop,FL,7,False
+PR000108,Gonzalez-Klein,repair_shop,IL,39,False
+PR000109,"Brown, Moreno and Choi",repair_shop,CA,22,False
+PR000110,Burns Ltd,repair_shop,TX,28,False
+PR000111,Mcmillan-Fritz,repair_shop,MI,38,False
+PR000112,Weeks-Lee,medical_clinic,FL,20,True
+PR000113,"Jones, Arias and Dyer",medical_clinic,TX,18,False
+PR000114,Dodson Inc,medical_clinic,NC,24,False
+PR000115,Frey Ltd,repair_shop,GA,33,True
+PR000116,"Brooks, Flores and Barton",medical_clinic,GA,26,False
+PR000117,"Rosales, Wilson and Green",repair_shop,NY,19,False
+PR000118,"Davis, Castro and Mckinney",medical_clinic,FL,13,False
+PR000119,Riggs Ltd,medical_clinic,GA,10,False
+PR000120,Baird PLC,medical_clinic,IL,14,False
+PR000121,Gay Ltd,repair_shop,TX,9,False
+PR000122,Perez LLC,attorney,OH,11,False
+PR000123,"Perkins, Aguilar and Hodges",repair_shop,NC,3,False
+PR000124,Mcclain-Villa,repair_shop,NC,40,True
+PR000125,Jarvis and Sons,medical_clinic,NY,12,False
+PR000126,Alvarado LLC,attorney,TX,35,False
+PR000127,"Rodriguez, Garcia and Conley",medical_clinic,FL,39,False
+PR000128,Davis Ltd,repair_shop,NY,39,False
+PR000129,Lawrence Ltd,medical_clinic,CA,32,True
+PR000130,Thompson LLC,attorney,NY,39,False
+PR000131,Patel-Cherry,repair_shop,IL,14,False
+PR000132,"Hill, Gutierrez and Bowman",repair_shop,NY,1,False
+PR000133,"Goodman, Murray and Miles",repair_shop,NC,27,False
+PR000134,Alvarez-Ward,repair_shop,FL,37,False
+PR000135,"Thomas, Price and Martin",attorney,TX,1,False
+PR000136,Garcia-Wright,medical_clinic,PA,29,False
+PR000137,Navarro and Sons,repair_shop,MI,24,False
+PR000138,Richardson Ltd,repair_shop,NC,17,True
+PR000139,"Munoz, Davila and Ramirez",attorney,OH,35,False
+PR000140,"Collins, Gardner and Norton",repair_shop,FL,31,False
+PR000141,Brown Ltd,attorney,NC,32,False
+PR000142,Lamb Group,repair_shop,TX,19,False
+PR000143,George Group,repair_shop,NC,31,False
+PR000144,Wells-Bates,medical_clinic,GA,39,True
+PR000145,"Rogers, Porter and Dillon",repair_shop,MI,20,False
+PR000146,Hanson Group,medical_clinic,IL,28,True
+PR000147,"Hudson, Cole and Rivera",attorney,NC,3,False
+PR000148,"Coffey, Ortiz and Rose",medical_clinic,TX,32,False
+PR000149,Morrison Ltd,medical_clinic,PA,22,True
+PR000150,Brown-Brady,repair_shop,CA,15,False
+PR000151,"Pena, Merritt and Taylor",repair_shop,IL,38,False
+PR000152,Bell-Jones,medical_clinic,OH,19,False
+PR000153,Wood-Gilbert,medical_clinic,FL,31,False
+PR000154,"Bailey, Austin and Brown",repair_shop,NY,26,False
+PR000155,Martin-Andrews,attorney,IL,5,False
+PR000156,Wheeler-Wilson,medical_clinic,FL,20,False
+PR000157,Braun Inc,repair_shop,PA,2,False
+PR000158,Garner and Sons,medical_clinic,IL,21,False
+PR000159,Gilbert Ltd,medical_clinic,NY,36,False
+PR000160,"Brown, Ortega and Nelson",repair_shop,IL,28,False
+PR000161,Rivera-Mason,repair_shop,IL,20,False
+PR000162,Oliver-Goodman,attorney,OH,37,False
+PR000163,"Allen, Whitney and Ellison",repair_shop,OH,39,False
+PR000164,Walters PLC,medical_clinic,GA,36,False
+PR000165,Pham LLC,repair_shop,MI,11,False
+PR000166,"Turner, Young and Wilson",repair_shop,FL,3,False
+PR000167,Armstrong LLC,medical_clinic,MI,37,False
+PR000168,Nelson-Martinez,medical_clinic,IL,20,False
+PR000169,Jones Ltd,repair_shop,CA,32,False
+PR000170,Walters-Hanson,medical_clinic,FL,25,False
+PR000171,Hall-Davis,medical_clinic,OH,21,True
+PR000172,Reyes-Salinas,repair_shop,MI,16,False
+PR000173,Bell LLC,repair_shop,OH,1,False
+PR000174,Gonzalez Inc,repair_shop,IL,23,False
+PR000175,Ford-Jackson,attorney,FL,24,False
+PR000176,Becker-Craig,repair_shop,CA,25,False
+PR000177,"Hines, Brown and Carter",attorney,FL,7,False
+PR000178,Bray-Allen,repair_shop,OH,38,False
+PR000179,"Johnston, Williams and Nguyen",repair_shop,FL,39,False
+PR000180,"Gomez, Stevens and Howard",repair_shop,NY,35,False
+PR000181,Torres Inc,repair_shop,CA,14,False
+PR000182,"George, Schultz and Fleming",repair_shop,MI,9,False
+PR000183,"Hammond, Hoffman and Lewis",repair_shop,PA,3,False
+PR000184,Carter Group,repair_shop,PA,38,False
+PR000185,Vaughn-Mcmahon,attorney,TX,20,False
+PR000186,Washington Inc,medical_clinic,TX,33,False
+PR000187,Moore LLC,medical_clinic,IL,32,False
+PR000188,"Wells, Sherman and Bowers",attorney,FL,36,True
+PR000189,Burgess-Rivas,medical_clinic,NY,26,False
+PR000190,Phillips-Hill,medical_clinic,GA,5,False
+PR000191,"Goodman, Evans and Wright",repair_shop,CA,30,False
+PR000192,Cooke-Anderson,medical_clinic,IL,17,False
+PR000193,"Kidd, Shepherd and Phillips",attorney,MI,6,False
+PR000194,Hebert-Avila,repair_shop,FL,15,False
+PR000195,"Hess, Wang and Thomas",medical_clinic,NC,1,False
+PR000196,Flores Group,medical_clinic,CA,13,False
+PR000197,Reyes-Price,repair_shop,NY,34,False
+PR000198,Benitez-Conway,medical_clinic,MI,30,False
+PR000199,"Jensen, Walker and White",repair_shop,TX,19,False
+PR000200,"Richards, Rivers and Vargas",medical_clinic,NC,2,False
+PR000201,Johnson and Sons,repair_shop,FL,12,True
+PR000202,Steele and Sons,repair_shop,NY,40,False
+PR000203,Oconnor-Mendoza,repair_shop,FL,24,False
+PR000204,King-Church,repair_shop,MI,11,False
+PR000205,Fuller Group,repair_shop,PA,2,False
+PR000206,Cook-Wilson,medical_clinic,OH,1,False
+PR000207,Kim-Trujillo,repair_shop,GA,28,False
+PR000208,"Cook, Brooks and Williams",medical_clinic,NY,4,False
+PR000209,"Roberson, Hardy and Smith",repair_shop,NY,30,True
+PR000210,"Vaughn, Fitzgerald and Alexander",repair_shop,NC,7,False
+PR000211,Schultz PLC,repair_shop,CA,22,False
+PR000212,Williams Inc,medical_clinic,FL,26,False
+PR000213,Rodriguez-Coffey,attorney,FL,29,False
+PR000214,"Hardy, Morgan and Lee",medical_clinic,CA,25,True
+PR000215,Day Inc,attorney,NC,10,False
+PR000216,Reilly Ltd,medical_clinic,PA,20,False
+PR000217,Sharp LLC,medical_clinic,PA,14,False
+PR000218,Lewis-Gonzalez,repair_shop,NC,33,False
+PR000219,Martinez LLC,medical_clinic,NY,5,False
+PR000220,Anderson-Bell,repair_shop,GA,6,False
+PR000221,"Stanley, Jackson and Gonzalez",repair_shop,OH,22,False
+PR000222,Newton-Fowler,medical_clinic,NC,17,False
+PR000223,"Sharp, Owens and Johnson",medical_clinic,NC,15,False
+PR000224,Lopez-Herring,repair_shop,GA,39,False
+PR000225,Douglas LLC,repair_shop,TX,40,False
+PR000226,Johnson LLC,repair_shop,OH,28,False
+PR000227,Reyes Inc,medical_clinic,IL,2,False
+PR000228,"Lopez, Marshall and Allen",repair_shop,PA,18,False
+PR000229,Smith Group,repair_shop,PA,27,False
+PR000230,"Smith, Berry and Pena",attorney,MI,21,True
+PR000231,Delgado-Wallace,medical_clinic,NC,23,False
+PR000232,"Brewer, Cole and Ramirez",attorney,OH,7,False
+PR000233,Davis LLC,medical_clinic,CA,19,False
+PR000234,Carter Group,medical_clinic,NY,9,False
+PR000235,Santos-Bates,medical_clinic,MI,12,False
+PR000236,"Zimmerman, Evans and Diaz",medical_clinic,TX,30,False
+PR000237,"Miller, Garza and Harris",attorney,NY,7,False
+PR000238,"Richards, Cohen and Blair",medical_clinic,CA,2,False
+PR000239,Mccoy-Wallace,medical_clinic,IL,17,False
+PR000240,"Perez, Roberts and Moore",medical_clinic,TX,11,False
+PR000241,"Simmons, Bailey and Morris",repair_shop,NC,12,False
+PR000242,Jones-Johnson,repair_shop,CA,3,False
+PR000243,Wilkins Group,repair_shop,CA,21,False
+PR000244,Warren Inc,medical_clinic,NC,14,True
+PR000245,"Bernard, Payne and Murphy",repair_shop,MI,15,False
+PR000246,"Underwood, Hammond and Brady",repair_shop,CA,10,False
+PR000247,Marks PLC,medical_clinic,TX,36,False
+PR000248,"Moody, Lee and Manning",medical_clinic,CA,10,False
+PR000249,Chambers LLC,medical_clinic,TX,17,False
