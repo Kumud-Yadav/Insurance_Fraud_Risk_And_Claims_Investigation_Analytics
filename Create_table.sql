@@ -39,3 +39,21 @@ CREATE TABLE public.claimants (
     policy_tenure_years NUMERIC(5, 1),
     prior_claims_count INTEGER
 );
+CREATE TABLE public.vehicles(
+    vehicle_id varchar(20),
+    make varchar(20),
+    model varchar(20),
+    model_year INTEGER,
+    vehicle_type varchar(50),
+    fuel_type varchar(20),
+    market_value NUMERIC (12, 2),
+    vin_hash varchar(20)
+);
+CREATE TABLE public.providers(
+    provider_id VARCHAR(20),
+    provider_name VARCHAR(100),
+    provider_type VARCHAR(50),
+    state VARCHAR(50),
+    years_in_business INTEGER,
+    fraud_history_flag BOOLEAN
+);

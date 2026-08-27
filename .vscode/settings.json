@@ -7,7 +7,7 @@
             "port": 5432,
             "driver": "PostgreSQL",
             "name": "insurance_fraud",
-            "database": "postgres",
+            "database": "insurance_fraud",
             "username": "postgres"
         }
     ]
