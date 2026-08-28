@@ -72,3 +72,15 @@ SELECT witnesses_count,
 FROM claims
 GROUP BY witnesses_count
 ORDER BY witnesses_count;
+-- Is the number of reported injuries associated with higher fraud risk?
+SELECT injuries_count,
+    COUNT(*) AS total_claims,
+    SUM(is_fraud) AS fraudulent_claims,
+    ROUND(
+        SUM(is_fraud)::NUMERIC / COUNT(*) * 100,
+        2
+    ) AS fraud_rate,
+    ROUND(AVG(claim_amount), 2) AS average_claim_amount
+FROM claims
+GROUP BY injuries_count
+ORDER BY injuries_count;
