@@ -61,3 +61,14 @@ SELECT police_report_filed,
 FROM claims
 GROUP BY police_report_filed
 ORDER BY fraud_rate DESC;
+-- Does the number of witnesses correlate with fraud risk?
+SELECT witnesses_count,
+    COUNT(*) AS total_claims,
+    SUM(is_fraud) AS fraudulent_claims,
+    ROUND(
+        SUM(is_fraud)::NUMERIC / COUNT(*) * 100,
+        2
+    ) AS fraud_rate
+FROM claims
+GROUP BY witnesses_count
+ORDER BY witnesses_count;
