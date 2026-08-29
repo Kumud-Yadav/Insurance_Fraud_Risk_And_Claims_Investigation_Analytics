@@ -160,3 +160,18 @@ FROM (
     ) x
 GROUP BY claim_count
 ORDER BY claim_count;
+-- Which states have the highest fraud rates, and where should the insurer potentially focus fraud-monitoring efforts?
+SELECT cl.state,
+    COUNT(c.claim_id) AS total_claims,
+    SUM(c.is_fraud) AS fraudulent_claims,
+    ROUND(
+        SUM(c.is_fraud)::NUMERIC / COUNT(c.claim_id) * 100,
+        2
+    ) AS fraud_rate,
+    ROUND(SUM(c.claim_amount), 2) AS total_claim_amount,
+    ROUND(AVG(c.claim_amount), 2) AS average_claim_amount
+FROM claims c
+    JOIN claimants cl ON c.claimant_id = cl.claimant_id
+GROUP BY cl.state
+HAVING COUNT(c.claim_id) >= 50
+ORDER BY fraud_rate DESC;
