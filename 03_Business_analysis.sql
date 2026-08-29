@@ -129,3 +129,16 @@ GROUP BY p.provider_id,
     p.fraud_history_flag
 HAVING COUNT(c.claim_id) >= 20
 ORDER BY fraud_rate DESC;
+-- Does Provider Fraud History Actually Matter?
+SELECT p.fraud_history_flag,
+    COUNT(DISTINCT p.provider_id) AS providers,
+    COUNT(c.claim_id) AS total_claims,
+    SUM(c.is_fraud) AS fraudulent_claims,
+    ROUND(
+        SUM(c.is_fraud)::NUMERIC / COUNT(c.claim_id) * 100,
+        2
+    ) AS fraud_rate
+FROM providers p
+    JOIN claims c ON p.provider_id = c.repair_provider_id
+GROUP BY p.fraud_history_flag
+ORDER BY fraud_rate DESC;
