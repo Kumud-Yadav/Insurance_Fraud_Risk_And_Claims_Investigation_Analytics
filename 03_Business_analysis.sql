@@ -1,6 +1,3 @@
-/*
- WORK IN PROGRESS
- */
 -- What is the overall fraud performance?
 SELECT count (*) as total_claims,
     sum(is_fraud) as fraudulent_claims,
