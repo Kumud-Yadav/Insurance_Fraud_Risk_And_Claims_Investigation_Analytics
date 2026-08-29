@@ -107,3 +107,25 @@ FROM claims
 WHERE payout_amount IS NOT NULL
 GROUP BY is_fraud
 ORDER BY is_fraud;
+-- Which insurance providers have unusually high fraud rates?
+SELECT p.provider_id,
+    p.provider_name,
+    p.provider_type,
+    p.state,
+    p.fraud_history_flag,
+    COUNT(c.claim_id) AS total_claims,
+    SUM(c.is_fraud) AS fraudulent_claims,
+    ROUND(
+        SUM(c.is_fraud)::NUMERIC / COUNT(c.claim_id) * 100,
+        2
+    ) AS fraud_rate,
+    ROUND(SUM(c.claim_amount), 2) AS total_claim_amount
+FROM providers p
+    JOIN claims c ON p.provider_id = c.repair_provider_id
+GROUP BY p.provider_id,
+    p.provider_name,
+    p.provider_type,
+    p.state,
+    p.fraud_history_flag
+HAVING COUNT(c.claim_id) >= 20
+ORDER BY fraud_rate DESC;
