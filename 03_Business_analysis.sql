@@ -84,3 +84,13 @@ SELECT injuries_count,
 FROM claims
 GROUP BY injuries_count
 ORDER BY injuries_count;
+-- Are fraudulent claims typically larger than legitimate claims?
+SELECT is_fraud,
+    COUNT(*) AS total_claims,
+    ROUND(AVG(claim_amount), 2) AS average_claim_amount,
+    ROUND(MIN(claim_amount), 2) AS minimum_claim_amount,
+    ROUND(MAX(claim_amount), 2) AS maximum_claim_amount,
+    ROUND(SUM(claim_amount), 2) AS total_claim_amount
+FROM claims
+GROUP BY is_fraud
+ORDER BY is_fraud;
