@@ -129,3 +129,34 @@ GROUP BY p.provider_id,
     p.fraud_history_flag
 HAVING COUNT(c.claim_id) >= 20
 ORDER BY fraud_rate DESC;
+-- Does Provider Fraud History Actually Matter?
+SELECT p.fraud_history_flag,
+    COUNT(DISTINCT p.provider_id) AS providers,
+    COUNT(c.claim_id) AS total_claims,
+    SUM(c.is_fraud) AS fraudulent_claims,
+    ROUND(
+        SUM(c.is_fraud)::NUMERIC / COUNT(c.claim_id) * 100,
+        2
+    ) AS fraud_rate
+FROM providers p
+    JOIN claims c ON p.provider_id = c.repair_provider_id
+GROUP BY p.fraud_history_flag
+ORDER BY fraud_rate DESC;
+-- Do repeat claimants have a higher fraud rate?
+SELECT claim_count,
+    COUNT(*) AS claimants,
+    SUM(total_fraud) AS fraudulent_claims,
+    ROUND(
+        SUM(total_fraud)::NUMERIC / SUM(claim_count) * 100,
+        2
+    ) AS fraud_rate
+FROM (
+        SELECT cl.claimant_id,
+            COUNT(c.claim_id) AS claim_count,
+            SUM(c.is_fraud) AS total_fraud
+        FROM claimants cl
+            JOIN claims c ON cl.claimant_id = c.claimant_id
+        GROUP BY cl.claimant_id
+    ) x
+GROUP BY claim_count
+ORDER BY claim_count;
