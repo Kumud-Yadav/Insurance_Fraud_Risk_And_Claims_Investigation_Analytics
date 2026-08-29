@@ -94,3 +94,16 @@ SELECT is_fraud,
 FROM claims
 GROUP BY is_fraud
 ORDER BY is_fraud;
+-- Do fraudulent claims receive different payouts compared with legitimate claims?
+SELECT is_fraud,
+    COUNT(*) AS total_claims,
+    ROUND(AVG(payout_amount), 2) AS average_payout,
+    ROUND(
+        AVG(payout_ratio) * 100,
+        2
+    ) AS average_payout_ratio,
+    ROUND(SUM(payout_amount), 2) AS total_payout
+FROM claims
+WHERE payout_amount IS NOT NULL
+GROUP BY is_fraud
+ORDER BY is_fraud;
