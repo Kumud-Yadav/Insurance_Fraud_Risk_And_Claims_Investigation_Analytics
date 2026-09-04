@@ -238,3 +238,6 @@ Run [`03_Business_analysis.sql`](03_Business_analysis.sql) to run executive quer
 4. **Fraud Ring Cross-Referencing:** Utilize shared bank account hashes and VIN cross-checking to detect multi-claimant fraud ring expansion in real time.
 
 ---
+
+*Author:* **Business Intelligence & Fraud Analytics Team**  
+*Project Repository:* Insurance Fraud Intelligence & Analysis System
