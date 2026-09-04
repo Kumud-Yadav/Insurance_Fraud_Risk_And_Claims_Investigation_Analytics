@@ -41,7 +41,7 @@ Through rigorous data preprocessing in Python, relational modeling in SQL, autom
 
 To enable automated triage and real-time claim prioritization, a **9-Point Weighted Risk Scoring Algorithm** was engineered (implemented in `03_Business_analysis.sql`):
 
-$$\text{Fraud Risk Score} = W_{\text{provider}} + W_{\text{police\_report}} + W_{\text{witness}} + W_{\text{claim\_amount}} + W_{\text{repeat\_claimant}}$$
+$$\text{Fraud Risk Score} = W_{\text{provider}} + W_{\text{police report}} + W_{\text{witness}} + W_{\text{claim amount}} + W_{\text{repeat claimant}}$$
 
 | Risk Factor / Indicator | Criteria | Risk Points Weight | Business Justification |
 | :--- | :--- | :---: | :--- |
